@@ -1,0 +1,10 @@
+{
+  "name": "Send me via SMS",
+  "description": "Sends the selected text as a SMS to the phone",
+  "version": "0.6",
+  "permissions": ["contextMenus", "http://notify-me.net/", "storage"],
+  "background": {
+    "scripts": ["app.js"]
+  },
+  "manifest_version": 2
+}
